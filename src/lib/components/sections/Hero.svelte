@@ -32,11 +32,10 @@
             <!-- Typing effect -->
             <h4 class="mb-4 dark:text-white duration-500">
               <Typewriter mode={'loop'} interval={25}>
-                A
-                <span class="text-emerald-600 dark:text-primary">Full-Stack Developer</span>
-                <span class="text-green-600 dark:text-green-400">back-end Engineer</span>
-                <span class="text-orange-600 dark:text-orange-400">front-end developer</span>
-                <span class="text-orange-600 dark:text-orange-400">App developer</span>
+                <span class="text-emerald-600 dark:text-primary">A Full-Stack Developer</span>
+                <span class="text-green-600 dark:text-green-400">A back-end Engineer</span>
+                <span class="text-orange-600 dark:text-orange-400">A front-end developer</span>
+                <span class="text-orange-600 dark:text-orange-400">An App developer</span>
               </Typewriter>
             </h4>
 

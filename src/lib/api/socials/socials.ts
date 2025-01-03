@@ -1,69 +1,34 @@
 import type { ButtonColorVariant } from '$lib/components/colors';
-
-import Facebook from '$lib/components/graphics/social/Facebook.svelte';
 import Github from '$lib/components/graphics/social/Github.svelte';
 import Instagram from '$lib/components/graphics/social/Instagram.svelte';
 import LinkedIn from '$lib/components/graphics/social/Linkedin.svelte';
-// import Medium from '$lib/components/graphics/social/Medium.svelte';
-// import Showwcase from '$lib/components/graphics/social/Showwcase.svelte';
-import Codewars from '$lib/components/graphics/social/Codewars.svelte';
-import Hackerrank from '$lib/components/graphics/social/Hackerrank.svelte';
-import Telegram from '$lib/components/graphics/social/Telegram.svelte';
 
 export const githubLink = 'https://github.com/ikhsan3adi/';
 export const linkedInLink = 'https://www.linkedin.com/in/ikhsan-satriadi/';
 export const whatsappLink = 'https://wa.me/62895338593923';
-export const emailLink = 'mailto:ikhsansatriadi175@gmail.com';
+export const emailLink = 'mailto:justintamrin888@gmail.com';
 
 export const socials = [
   {
     social: 'Github',
     name: '@ikhsan3adi',
-    link: githubLink,
+    link: 'https://github.com/JustinTamrin',
     colorVariant: { key: 'github' } as ButtonColorVariant,
     icon: Github
   },
   {
     social: 'LinkedIn',
     name: 'Ikhsan Satriadi',
-    link: linkedInLink,
+    link: 'https://www.linkedin.com/in/justin-nicholas-tamrin-562b5b297/',
     colorVariant: { key: 'linkedIn' } as ButtonColorVariant,
     icon: LinkedIn
   },
   {
-    social: 'Facebook',
-    name: 'Ikhsan Satriadi',
-    link: 'https://facebook.com/onetrd',
-    colorVariant: { key: 'facebook' } as ButtonColorVariant,
-    icon: Facebook
-  },
-  {
     social: 'Instagram',
-    name: '@ikhsan3adi',
-    link: 'https://instagram.com/ikhsan3adi',
+    name: '@justnich_t',
+    link: 'https://www.instagram.com/justnich_t/',
     colorVariant: { key: 'instagram' } as ButtonColorVariant,
     icon: Instagram
-  },
-  {
-    social: 'Telegram',
-    name: 'Ikhsan',
-    link: 'https://t.me/ikhsan3adi',
-    colorVariant: { key: 'telegram' } as ButtonColorVariant,
-    icon: Telegram
-  },
-  {
-    social: 'Hackerrank',
-    name: 'Ikhsan Satriadi',
-    link: 'https://www.hackerrank.com/profile/ikhsan3adi',
-    colorVariant: { key: 'hackerrank' } as ButtonColorVariant,
-    icon: Hackerrank
-  },
-  {
-    social: 'Codewars',
-    name: 'Ikhsan Satriadi',
-    link: 'https://www.codewars.com/users/ikhsan3adi',
-    colorVariant: { key: 'email' } as ButtonColorVariant,
-    icon: Codewars
   }
   // {
   //   social: 'Showwcase',

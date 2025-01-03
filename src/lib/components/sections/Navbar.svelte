@@ -92,7 +92,6 @@
         </div>
       </div>
 
-      <!-- Nav links -->
       <div
         class="hidden w-full pr-12 xl:pr-16 pl-16 xl:pl-24 lg:flex justify-evenly flex-wrap items-center text-text
 				{isBgTransparent ? 'dark:text-white' : 'dark:text-text'}"
@@ -102,8 +101,12 @@
       <Hamburger {isBgTransparent} />
 
       <!-- Dark mode toggle -->
-      <div class="lg:flex my-auto {isBgTransparent ? 'dark:text-white' : 'dark:text-text'}">
-        <div class="mr-4">Mode</div>
+      <div
+        class="lg:flex max-md:hidden my-auto {isBgTransparent
+          ? 'dark:text-white'
+          : 'dark:text-text'}"
+      >
+        <div class="mr-4 max-md:hidden lg:flex">Mode</div>
         <ThemeButton {isBgTransparent} />
       </div>
     </div>
