@@ -17,7 +17,6 @@
   <Navbar />
   <Hero />
   <About />
-  <Portfolio fetch={data.fetch} projectService={data.projectService} />
   <Tools />
   <Social />
   <Contact />

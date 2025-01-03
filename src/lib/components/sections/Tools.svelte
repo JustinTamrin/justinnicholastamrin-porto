@@ -83,16 +83,7 @@
                   class="flex flex-wrap m-2 mx-auto my-auto px-2 pb-12 gap-2 items-center justify-evenly"
                 >
                   <div class="w-16 md:w-20 xl:w-24">
-                    <Php />
-                  </div>
-                  <div class="w-16 md:w-20 xl:w-24">
                     <Codeigniter />
-                  </div>
-                  <div class="w-16 md:w-20 xl:w-24">
-                    <Laravel />
-                  </div>
-                  <div class="w-16 md:w-20 xl:w-24">
-                    <NestJs />
                   </div>
                   <div class="w-16 md:w-20 xl:w-24">
                     <Nodejs />

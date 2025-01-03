@@ -3,17 +3,20 @@ const githubApiLink = 'https://api.github.com/repos/ikhsan3adi';
 /** @type {import('./types').Project[]} */
 const initialProjects = [
   {
-    id: 'backtix',
-    name: 'BackTix - Event & Ticketing App',
-    url: `${githubApiLink}/backtix`,
-    description: '',
-    baseUrl: 'https://github.com/ikhsan3adi/backtix/raw/main/',
-    imageUrl: 'https://github.com/ikhsan3adi/backtix/raw/main/assets/social_preview.png',
-    readmeUrl: 'https://raw.githubusercontent.com/ikhsan3adi/backtix/main/README.md',
-    tags: ['flutter', 'nestjs', 'svelte']
+    id: 'yamaha',
+    name: 'Yamaha-Motor System',
+    url: ``,
+    description: 'test',
+    baseUrl:
+      'https://drive.google.com/file/d/1gkE6ctDvvgQ1G_j2XvDk0HkfTa9H3JAj/view?usp=drive_link',
+    imageUrl:
+      'https://drive.google.com/file/d/1gkE6ctDvvgQ1G_j2XvDk0HkfTa9H3JAj/view?usp=drive_link',
+    readmeUrl:
+      'https://drive.google.com/file/d/1gkE6ctDvvgQ1G_j2XvDk0HkfTa9H3JAj/view?usp=drive_link',
+    tags: ['flutter', 'mongoDB', 'Dart']
   },
   {
-    id: 'c-snake-game',
+    id: 'c-snake-games',
     name: 'Snake Game Using C',
     url: `${githubApiLink}/c-snake-game`,
     description: '',
