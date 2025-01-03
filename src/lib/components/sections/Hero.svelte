@@ -38,16 +38,6 @@
                 <span class="text-orange-600 dark:text-orange-400">An App developer</span>
               </Typewriter>
             </h4>
-
-            <!-- Call to action buttons -->
-            <div class="flex gap-3 sm:max-md:justify-center">
-              <a href="#portfolio">
-                <Button noDarkVariant={false}>See projects</Button>
-              </a>
-              <a href="#contact">
-                <Button variant={secondaryButton} noDarkVariant={false}>Contact me</Button>
-              </a>
-            </div>
           </div>
 
           <!-- Emblem logo -->
