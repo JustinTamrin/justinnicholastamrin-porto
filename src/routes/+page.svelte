@@ -8,8 +8,6 @@
   import Hero from '$lib/components/sections/Hero.svelte';
   import Social from '$lib/components/sections/Social.svelte';
   import Tools from '$lib/components/sections/Tools.svelte';
-
-  export let data: PageData;
 </script>
 
 <main>
