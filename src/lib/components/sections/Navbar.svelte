@@ -1,7 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import { hamburgerMenuExpanded } from '$lib/config';
-  import { navLinks } from '$lib/components/navigation';
 
   import Wrappper from '$lib/components/widgets/Wrappper.svelte';
   import ThemeButton from '$lib/components/widgets/ThemeButton.svelte';
@@ -79,15 +78,15 @@
             <h3
               class="text-primary {isBgTransparent
                 ? 'dark:text-white'
-                : 'dark:text-text'} font-mechsuit text-sm md:text-lg z-0 transition-colors duration-500"
+                : 'dark:text-text'} whitespace-nowrap font-mechsuit text-sm md:text-lg z-0 transition-colors duration-500"
             >
-              IKHSaN3ADI
+              Justin Nicholas Tamrin
             </h3>
 
             <h3
-              class="font-mechsuit dark:hidden text-sm md:text-lg absolute -top-1 right-1 transition-colors duration-500"
+              class="font-mechsuit whitespace-nowrap dark:hidden text-sm md:text-lg absolute -top-1 right-1 transition-colors duration-500"
             >
-              IKHSaN3ADI
+              Justin Nicholas Tamrin
             </h3>
           </a>
         </div>
@@ -97,17 +96,14 @@
       <div
         class="hidden w-full pr-12 xl:pr-16 pl-16 xl:pl-24 lg:flex justify-evenly flex-wrap items-center text-text
 				{isBgTransparent ? 'dark:text-white' : 'dark:text-text'}"
-      >
-        {#each navLinks as link}
-          <a class="hover:underline active:text-indigo-500" href="#{link.link}">{link.text}</a>
-        {/each}
-      </div>
+      />
 
       <!-- Hamburger menu -->
       <Hamburger {isBgTransparent} />
 
       <!-- Dark mode toggle -->
-      <div class="hidden lg:block my-auto">
+      <div class="lg:flex my-auto {isBgTransparent ? 'dark:text-white' : 'dark:text-text'}">
+        <div class="mr-4">Mode</div>
         <ThemeButton {isBgTransparent} />
       </div>
     </div>

@@ -25,16 +25,17 @@
             <!-- Hero text -->
             <h4 id="home" class="dark:text-white duration-500">Hello, my name is</h4>
             <h1 class="mb-2 dark:text-white duration-500">
-              Ikhsan <span class="font-jetbrains text-inherit text-primary">Satriadi</span>
+              Justin Nicholas <span class="font-jetbrains text-inherit text-primary">Tamrin</span>
             </h1>
 
             <!-- Typing effect -->
             <h4 class="mb-4 dark:text-white duration-500">
               <Typewriter mode={'loop'} interval={25}>
                 A
-                <span class="text-emerald-600 dark:text-primary">mobile developer</span>
-                <span class="text-green-600 dark:text-green-400">back-end developer</span>
+                <span class="text-emerald-600 dark:text-primary">Full-Stack Developer</span>
+                <span class="text-green-600 dark:text-green-400">back-end Engineer</span>
                 <span class="text-orange-600 dark:text-orange-400">front-end developer</span>
+                <span class="text-orange-600 dark:text-orange-400">App developer</span>
               </Typewriter>
             </h4>
 
