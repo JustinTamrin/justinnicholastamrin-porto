@@ -36,15 +36,18 @@
           <Saos animation={'scale-up-center 1s cubic-bezier(0.4, 0, 0.2, 1) both'} once>
             <h1 class="my-4 md:my-6 lg:my-8 dark:text-white duration-500" id="about">About Me</h1>
             <p class="dark:text-slate-300">
-              I'm Ikhsan, a passionate software engineer with a love for problem-solving and
-              creating impactful solutions. I thrive on continuous learning and enjoy collaborating
-              with teams to tackle challenges and deliver high-quality software solutions. Let's
-              build something great together!
+              Hey there! I'm Justin, a full-stack developer who loves bringing amazing ideas to life
+              through technology. Over the past 3+ years, I've had the privilege of collaborating
+              with talented developers and companies to create some truly cool things. When I'm not
+              coding, you can find me diving into books, sharpening my chess skills, or just
+              enjoying the thrill of learning. My mission is to not only help businesses succeed but
+              also mentor fellow developers on their journey to improve and grow. Let's create
+              something awesome together!
             </p>
             <p class="my-6 dark:text-slate-300">
               To learn more about my experience and skills, feel free to visit my LinkedIn profile:
             </p>
-            <a href={linkedInLink} target="_blank">
+            <a href="https://www.linkedin.com/in/justin-nicholas-tamrin-562b5b297/" target="_blank">
               <Button variant={primaryButton} noDarkVariant={false}>
                 <Fa icon={faExternalLink} slot="icon" />Visit LinkedIn
               </Button>
