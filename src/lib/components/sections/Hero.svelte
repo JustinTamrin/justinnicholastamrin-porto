@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { ButtonColorVariant } from '$lib/components/colors';
+  import justinprofilepic from '$lib/img/Justin_Nicholas Tamrin_Profile Photo.jpg';
 
   import bg from '$lib/components/graphics/hero-bg.svg';
 
@@ -55,15 +56,13 @@
             <div
               class="w-52 h-52 mx-auto md:w-64 md:h-64 lg:w-72 lg:h-72 dark:text-white absolute -top-3 right-2 duration-[50ms]"
             >
-              <Emblem />
+              <img src={justinprofilepic} alt="Justin Profile Pic" class="rounded-lg shadow-lg" />
             </div>
 
             <!-- Back outline / shadow -->
             <div
               class="w-52 h-52 mx-auto md:w-64 md:h-64 lg:w-72 lg:h-72 text-secondary dark:text-transparent dark:stroke-[4] dark:stroke-custom-3 duration-500"
-            >
-              <Emblem />
-            </div>
+            />
           </div>
         </div>
       </Wrappper>
